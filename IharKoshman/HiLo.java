@@ -31,9 +31,11 @@ public class HiLo {
         System.out.println("Thank you for playing! Goodbye!");
         scanner.close();
     }
-
     private static int generateNumWhichUserWillGuess() {
         Random rand = new Random();
-        return rand.nextInt((100 - 1) + 1) + 1;
+        int max = 100;
+        int min = -100;
+        int topValue = 1;
+        return rand.nextInt((max - min) + topValue) + min;
     }
 }
