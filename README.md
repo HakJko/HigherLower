@@ -1,2 +1,2 @@
 # HigherLower
-Game. The number which you need to guess
+Game. The random number, which you need to guess
